@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/Playground/.vs/Playground/v16/ipch/AutoPCH/5adeee5c0b6b28a0
+/Playground/.vs/Playground/v16

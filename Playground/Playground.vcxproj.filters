@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Playground.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AlgoExpert">
+      <UniqueIdentifier>{b9460001-2810-462d-adb7-933d18fadab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlgoExpert\Easy">
+      <UniqueIdentifier>{6992376d-e85f-4ee5-8243-82e6cfce620a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgoExpert\Easy\BinarySearch.h">
+      <Filter>AlgoExpert\Easy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
