@@ -21,5 +21,8 @@
     <ClInclude Include="AlgoExpert\Easy\NthFibonacci.h">
       <Filter>AlgoExpert\Easy</Filter>
     </ClInclude>
+    <ClInclude Include="AlgoExpert\Easy\FindClosestValueInBST.h">
+      <Filter>AlgoExpert\Easy</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
