@@ -18,5 +18,8 @@
     <ClInclude Include="AlgoExpert\Easy\PalindromCheck.h">
       <Filter>AlgoExpert\Easy</Filter>
     </ClInclude>
+    <ClInclude Include="AlgoExpert\Easy\NthFibonacci.h">
+      <Filter>AlgoExpert\Easy</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
