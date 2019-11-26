@@ -24,5 +24,8 @@
     <ClInclude Include="AlgoExpert\Easy\FindClosestValueInBST.h">
       <Filter>AlgoExpert\Easy</Filter>
     </ClInclude>
+    <ClInclude Include="AlgoExpert\Easy\TwoNumberSum.h">
+      <Filter>AlgoExpert\Easy</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

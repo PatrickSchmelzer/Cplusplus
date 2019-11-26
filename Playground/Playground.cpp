@@ -1,22 +1,16 @@
 //#include "AlgoExpert/Easy/BinarySearch.h"
 //#include "AlgoExpert/Easy/PalindromCheck.h"
 //#include "AlgoExpert/Easy/NthFibonacci.h"
-#include "AlgoExpert/Easy/FindClosestValueInBST.h"
+//#include "AlgoExpert/Easy/FindClosestValueInBST.h"
+#include "AlgoExpert/Easy/TwoNumberSum.h"
 
 #include <iostream>
+#include <algorithm>
 
 int main()
 {
-	BST* tree = new BST(10);
-	tree->left = new BST(5);
-	tree->left->left = new BST(2);
-	tree->left->right = new BST(5);
-	tree->left->left->left = new BST(1);
-	tree->right = new BST(15);
-	tree->right->left = new BST(13);
-	tree->right->left->right = new BST(14);
-	tree->right->right = new BST(22);
-
-	auto result = findClosestValueInBst(tree, 12);
-	std::cout << "Result: " << result << std::endl;
+	std::vector<int> array{ 3,5,-4,8,11,1,-1,6 };
+	auto result = twoNumberSum(array, 10);
+	std::for_each(result.begin(), result.end(), [](int n) {std::cout << n << " "; });
+	//std::cout << "Result: " << result << std::endl;
 }

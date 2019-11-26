@@ -160,6 +160,7 @@
     <ClInclude Include="AlgoExpert\Easy\FindClosestValueInBST.h" />
     <ClInclude Include="AlgoExpert\Easy\NthFibonacci.h" />
     <ClInclude Include="AlgoExpert\Easy\PalindromCheck.h" />
+    <ClInclude Include="AlgoExpert\Easy\TwoNumberSum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
