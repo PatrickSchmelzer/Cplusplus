@@ -1,10 +1,14 @@
 #include "AlgoExpert/Easy/BinarySearch.h"
 
+#include <vector>
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::vector<int> array{ 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 };
+	BinarySearch b;
+	auto result = b.binarySearchRecurs(array, 33);
+	std::cout << "Result: " << result << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

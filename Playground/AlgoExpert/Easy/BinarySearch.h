@@ -3,16 +3,49 @@
 
 #include <vector>
 
+//Usage:
+//std::vector<int> array{ 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 };
+//BinarySearch b;
+//auto result = b.binarySearch(array, 33);
+
 class BinarySearch {
 public:
 	BinarySearch() = default;
 	~BinarySearch() = default;
 
-	//int binarySearch(std::vector<int> array, int target) {
-	//	return helper(array, target, 0, array.size() - 1);
-	//}
+	int binarySearch(std::vector<int> array, int target) {
+		int left = 0;
+		int right = array.size() - 1;
+
+		while (left <= right) {
+			int mid = left + ((right - left) / 2);
+			if (array[mid] == target)
+				return mid;
+			else if (array[mid] > target)
+				right = mid - 1;
+			else
+				left = mid + 1;
+		}
+		return -1; // not found
+	}
+
+	int binarySearchRecurs(std::vector<int> array, int target) {
+		return helper(array, target, 0, array.size() - 1);
+	}
 
 private:
+	int helper(std::vector<int>& array, int target, int left, int right) {
+		if (left > right)
+			return -1;
+
+		int mid = left + (right - left) / 2;
+		if (array[mid] == target)
+			return mid;
+		else if (array[mid] > target)
+			return helper(array, target, left, mid - 1);
+		else
+			return helper(array, target, mid + 1, right);
+	}
 
 };
 
