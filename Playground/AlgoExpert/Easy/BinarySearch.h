@@ -1,18 +1,25 @@
 #ifndef ALGOEXPERT_BINARY_SEARCH
 #define ALGOEXPERT_BINARY_SEARCH
 
-#include <vector>
+/// Binary Search
+///
+/// Write a function taht takes in a sorted array of integers as well as a target integer. The function should use the Binary Search algorithm
+/// to find if the target number is contained in the array and s hould return its inded if tis is, otherwise -1;
 
 //Usage:
 //std::vector<int> array{ 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 };
 //BinarySearch b;
 //auto result = b.binarySearch(array, 33);
+//Result: 3
+
+#include <vector>
 
 class BinarySearch {
 public:
 	BinarySearch() = default;
 	~BinarySearch() = default;
 
+	/// Time complexity O(log(n)), Space complexity O(1)
 	int binarySearch(std::vector<int> array, int target) {
 		int left = 0;
 		int right = array.size() - 1;
@@ -29,6 +36,7 @@ public:
 		return -1; // not found
 	}
 
+	/// Time complexity O(log(n)), Space complexity O(log(n))
 	int binarySearchRecurs(std::vector<int> array, int target) {
 		return helper(array, target, 0, array.size() - 1);
 	}
