@@ -157,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgoExpert\Easy\BinarySearch.h" />
+    <ClInclude Include="AlgoExpert\Easy\CeasarCypherEncryptor.h" />
     <ClInclude Include="AlgoExpert\Easy\FindClosestValueInBST.h" />
     <ClInclude Include="AlgoExpert\Easy\FindThreeLargestNumbers.h" />
     <ClInclude Include="AlgoExpert\Easy\NthFibonacci.h" />
