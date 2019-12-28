@@ -42,5 +42,8 @@
     <ClInclude Include="Blind\Array\TwoSum.h">
       <Filter>Blind\Array</Filter>
     </ClInclude>
+    <ClInclude Include="Blind\Array\BuySellStock.h">
+      <Filter>Blind\Array</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
