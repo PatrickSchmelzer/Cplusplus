@@ -10,6 +10,12 @@
     <Filter Include="AlgoExpert\Easy">
       <UniqueIdentifier>{6992376d-e85f-4ee5-8243-82e6cfce620a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Blind">
+      <UniqueIdentifier>{d2559342-46b8-4b06-8d5b-f4b256c25a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blind\Array">
+      <UniqueIdentifier>{02e64b46-8f58-4d1e-a30d-a40055666ad0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgoExpert\Easy\BinarySearch.h">
@@ -32,6 +38,9 @@
     </ClInclude>
     <ClInclude Include="AlgoExpert\Easy\CeasarCypherEncryptor.h">
       <Filter>AlgoExpert\Easy</Filter>
+    </ClInclude>
+    <ClInclude Include="Blind\Array\TwoSum.h">
+      <Filter>Blind\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

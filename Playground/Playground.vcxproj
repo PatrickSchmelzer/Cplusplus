@@ -163,6 +163,7 @@
     <ClInclude Include="AlgoExpert\Easy\NthFibonacci.h" />
     <ClInclude Include="AlgoExpert\Easy\PalindromCheck.h" />
     <ClInclude Include="AlgoExpert\Easy\TwoNumberSum.h" />
+    <ClInclude Include="Blind\Array\TwoSum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
