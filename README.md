@@ -4,12 +4,12 @@
 Most common algorithms used in interview coding questions
 ### 1. Sliding Window
 	Identifications:
-	* Input linear data structure such as linked list, array or string
-	* Longest/Shortest substring/subarray or desired value
+	- Input linear data structure such as linked list, array or string
+	- Longest/Shortest substring/subarray or desired value
 	Common problems:
-	* Maximum sum subarray of size 'K' (easy)
-	* Longest substring with 'K' distinct characters (medium)
-	* String anagrams (hard)
+	- Maximum sum subarray of size 'K' (easy)
+	- Longest substring with 'K' distinct characters (medium)
+	- String anagrams (hard)
 	
 ### 2. Two Pointets or Iterators
 	Identifications:
