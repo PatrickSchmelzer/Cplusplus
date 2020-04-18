@@ -115,6 +115,12 @@ Most common algorithms used in interview coding questions
 Source:
 https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed	
 	
+	
+## TODO List:
+### Arrays
+1. Best Time to Buy and Sell Stocks I/II/III/IV
+2. Contain Duplicate I/II/III
+3. Product of Array Except Slef
 
 https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
 
